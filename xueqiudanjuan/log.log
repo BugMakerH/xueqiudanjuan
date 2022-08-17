@@ -1,0 +1,6 @@
+0817/2022 10:02:37 AM - DEBUG - Starting new HTTPS connection (1): xueqiu.com:443
+0817/2022 10:02:38 AM - DEBUG - https://xueqiu.com:443 "GET / HTTP/1.1" 200 None
+0817/2022 10:02:38 AM - INFO - Successfully created session
+0817/2022 10:02:38 AM - DEBUG - Starting new HTTPS connection (1): stock.xueqiu.com:443
+0817/2022 10:02:38 AM - DEBUG - https://stock.xueqiu.com:443 "GET /v5/stock/realtime/quotec.json?symbol=SH000001 HTTP/1.1" 200 None
+0817/2022 10:02:38 AM - DEBUG - Encoding detection: ascii is most likely the one.
