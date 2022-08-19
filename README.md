@@ -6,6 +6,10 @@ Please obey the rules of XueQiu, and do not take the bad influence for the XueQi
 
 ## General Information
 This is a Python package designed by BugMakerH, which is used for getting the data on the XueQiu website.
+You can import this package using:
+```python
+import xueqiudanjuan
+```
 
 ## How to use this package
 ### hello.py
@@ -16,16 +20,18 @@ This is a Python package designed by BugMakerH, which is used for getting the da
 This is a class to get data about stocks.
 You can create a Stock class using:
 ```python
-st = Stock()
+st = stocks.Stock()
 ```
 This means to create a Stock object.
-And, you can use 'get_realtime_quotec()' to get the real information of a specified stock. Like this:
+And, you can use 'get_realtime_quotec()' to get the real prize of a specified stock. Like this:
 ```python
 st.get_realtime_quotec("SH000001")
 ```
 
 
 ## Update documentation
+### 0.0.7
+- Updated the url of long description.
 ### 0.0.6
 - Added the Github URL of the package.
 - Remove the stock's code from the '__init__' function to the 'get_realtime_quotec' function.
